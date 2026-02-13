@@ -1,0 +1,4 @@
+interface:
+  display_name: "OnePro AI故障处理"
+  short_description: "面向HyperBDR/HyperMotion交付的日志+截图+Jira+代码联合诊断"
+  default_prompt: "对HyperBDR/HyperMotion交付问题进行分阶段诊断：解析截图/日志，检索Jira，必要时做有限代码定位，输出结构化报告与解决方案。"
