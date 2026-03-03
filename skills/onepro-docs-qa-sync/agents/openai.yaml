@@ -1,0 +1,7 @@
+interface:
+  display_name: "OnePro Docs Q&A Sync"
+  short_description: "Sync OnePro docs Q&A to Apache Answer"
+  default_prompt: "Use $onepro-docs-qa-sync to crawl docs.oneprocloud.com, generate EN/ZH Q&A packs + Markdown archives, and sync them to Apache Answer (qa/wenti) via ApiKeyAuth without duplicates."
+
+policy:
+  allow_implicit_invocation: true

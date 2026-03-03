@@ -1,7 +1,7 @@
 # Jira REST（Data Center）检索指引
 
 适用环境：Jira Data Center（内网），使用 Basic 认证。
-Base URL：`http://192.168.10.254:9005`
+Base URL：`http://office.oneprocloud.com.cn:9005`
 
 ## 1) 认证方式（Basic）
 - 使用 `username:password` 做 Base64 编码。
@@ -45,7 +45,7 @@ AND (summary ~ "<module>" OR description ~ "<module>")
 
 ## 4) cURL 示例
 ```
-BASE="http://192.168.10.254:9005"
+BASE="http://office.oneprocloud.com.cn:9005"
 JQL='project in (HB, HM) AND (summary ~ "timeout" OR description ~ "timeout" OR text ~ "timeout") ORDER BY updated DESC'
 
 curl -s -X POST "$BASE/rest/api/2/search" \
